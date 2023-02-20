@@ -1,0 +1,20 @@
+<form name ="nehasform" action="http://192.168.2.98:49698/transfer" href="javascript: submitform()" method="POST">
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputTo">To</label>
+        <input type="text" class="form-control" id="inputTo" name="x" placeholder="Who do you want to transfer to?">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputAmount">Amount</label>
+        <input type="number" class="form-control" id="inputAmount" name="100" placeholder="Amount to transfer">
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Send the Money!</button>
+  </form>
+
+<script type="text/javascript">
+function submitform()
+{
+  document.myform.submit();
+}
+</script>
